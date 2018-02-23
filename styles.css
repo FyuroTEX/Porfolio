@@ -5,16 +5,24 @@
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+  width: 100vh;
 }
 #skils {
   background-image: url(http://www.arte-d.it/wp-content/uploads/2016/11/S_tait_AM-2.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+  width: 100vh;
 }
 #contact {
   background-image: url(https://www.asiafitnesstoday.com/wp-content/uploads/Office_View.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+  width: 100vh;
+}
+body {
+  position: relative;
 }

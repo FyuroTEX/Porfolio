@@ -3,24 +3,170 @@
   <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
-    integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" integrity="sha384-XXXXXXXX"
-    crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="container-fluid row">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</head>
+
+  <body data-spy="scroll" data-target="#navbarSupportedContent">
+
+
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top">
+
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><img src="YL.jpg" width="30" height="30" class="d-inline-block align-top rounded" alt="">
+  Yurii Levchenko</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto nav-tabs" role="tablist">
+      <li class="nav-item active">
+        <a class="nav-link" href="#info">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skils">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#contact">Disabled</a>
+      </li>
+    </ul>
+
+  </div>
+
+</nav>
+
+<!--
+
+  <div class="navbar navbar-default navbar-fixed-top">
+  <div class="conteiner">
+
+    <div class="navbar-header">
+    <a href="" class="navbar-brand">Yurii Levchenko</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="navbar-collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    </div>
+    <div class="collapse navbar-collapse">
+
+      <ul class="nav nabar-nav">
+    <li><a href="#info">Info</a></li>
+    <li><a href="#skils">Skils</a></li>
+    <li><a href="#contact">Contacts</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+
+  </div>
+
+-->
+<!--
+   <div class="conteiner"></div>
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-inverse navbar-fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+       aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">Yurii Levchenko</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#info">Info<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skils">Skils</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacts</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+</div>
+-->
+
+<!--
+    <nav class="navbar navbar-dark bg-light navbar-fixed-top">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#info">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#skils">Features</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact">Pricing</a>
+    </li>
+
+  </ul>
+
+</nav>
+-->
+<!--
+    <nav class="navbar navbar-defult bg-inverse navbar-fixed-top">
+      <div class="conteiner">
+      <a href="#" class="navbar-brand">
+        <img src="https://www.asiafitnesstoday.com/wp-content/uploads/Office_View.jpg"
+         width="30" height="30" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expended="false" aria-label="toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a href="#info" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skils" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+-->
+  <!--  <nav class="navbar navbar-light bg-faded navbar-fixed-top">
+  <a class="navbar-brand" href="#">Yurii Levchenko</a>
+  <ul class="nav navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Features</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Pricing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+  </ul>
+
+</nav>
+-->
+    <div class="container-fluid ">
 <div class="col-xs-12" id="info">
   d
 </div>
 <div class="col-xs-12"  id="skils">
   d
 </div>
-<div class="col-xs-12" id="contact">
+<div class="col-xs-12 " id="contact">
   f
 </div>
 </div>
