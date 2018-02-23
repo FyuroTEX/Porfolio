@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <link href="styles.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
+
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="popover"]').popover({
+    trigger: 'focus'
+
+
+  })
+});
+$('.popover-dismiss').popover({
+  trigger: 'focus'
+});
+
+</script>
 </head>
 
   <body data-spy="scroll" data-target="#navbarSupportedContent">
@@ -18,10 +34,10 @@
 
   <nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top">
 
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-toggler-right"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#"><img src="YL.jpg" width="30" height="30" class="d-inline-block align-top rounded" alt="">
+  <a class="navbar-brand" style="padding-left: 30px" href="#"><img src="YL.jpg" width="30" height="30" class="d-inline-block align-top rounded" alt="">
   <span style="font-family: 'Lobster', cursive; font-size: 28px;">Yurii Levchenko</span></a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,10 +46,10 @@
         <a class="nav-link" href="#info"><span class="navbartxt">About Me</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#skils"><span class="navbartxt">Skils</span></a>
+        <a class="nav-link" href="#skils"><span class="navbartxt"><i class="fas fa-graduation-cap"></i> Skils</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#contact"><span class="navbartxt">Contacts</span></a>
+        <a class="nav-link " href="#contact"><span class="navbartxt"><i class="far fa-address-book"></i> Contacts</span></a>
       </li>
     </ul>
 
@@ -60,7 +76,7 @@
 
     <div class="jumbotron" >
 
-        <h1 class="display-3"><img class="rounded img-fluid" width="80" height="auto" src="YL.jpg" alt="my foto"> Yurii Levchenko</h1>
+        <h1 class="display-3"><i class="fas fa-graduation-cap"></i> Skill</h1>
         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
 
     </div>
@@ -72,9 +88,17 @@
 
     <div class="jumbotron" >
 
-        <h1 class="display-3"><img class="rounded img-fluid" width="80" height="auto" src="YL.jpg" alt="my foto"> Yurii Levchenko</h1>
+        <h1 class="display-3"><i class="far fa-address-book"></i> Contacts</h1>
         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        <button type="button" class="btn btn-primary" data-container="body" title="E-mail" data-toggle="popover" data-placement="left"
+        data-content="yurilev4@gmail.com"><i class="far fa-envelope"></i> E-mail</button>
 
+<button type="button" class="btn btn-primary" data-container="body" title="Phone Number" data-toggle="popover" data-placement="bottom"
+data-content="+380933029243"><i class="far fa-address-book"></i> Phone</button>
+
+<button type="button" class="btn btn-primary"><i class="fab fa-telegram"></i> Telegram</button>
+
+<button type="button" class="btn btn-primary"><i class="fab fa-facebook-square"></i> Facebook</button>
     </div>
 
  </div>
