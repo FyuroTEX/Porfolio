@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico');
 
+.navbartxt {
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+}
+
 #info {
   background-image: url(http://dreamstop.com/wp-content/uploads/2013/07/office-dream-meaning.jpeg);
   background-repeat: no-repeat;
