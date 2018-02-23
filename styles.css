@@ -5,6 +5,10 @@
   font-size: 22px;
 }
 
+.jbb {
+  padding-top: 12vh;
+  display: block;
+}
 #info {
   background-image: url(http://dreamstop.com/wp-content/uploads/2013/07/office-dream-meaning.jpeg);
   background-repeat: no-repeat;
