@@ -1,13 +1,12 @@
-<!DOCTYPE html>
+
 <html>
+  <head>
 
-<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio</title>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
   <link href="styles.css" rel="stylesheet" type="text/css">
@@ -15,65 +14,66 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('[data-toggle="popover"]').popover({
-        trigger: 'click'
-      });
-      $("#phnnmb").click(function() {
-        $(".popover").popover('hide');
-      });
-      $("#maillmy").click(function() {
-        $(".popover").popover('hide');
-      });
-    });
-  </script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover({
+    trigger: 'click'
+  });
+    $("#phnnmb").click(function(){
+            $(".popover").popover('hide');
+        });
+        $("#maillmy").click(function(){
+                $(".popover").popover('hide');
+            });
+});
+
+</script>
 </head>
 
-<body data-spy="scroll" data-target="#navbarSupportedContent">
+  <body data-spy="scroll" data-target="#navbarSupportedContent">
 
 
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top fixed-top">
 
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-toggler-right"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-    <a class="navbar-brand" style="padding-left: 30px" href="#"><img src="YL.jpg" width="30" height="30" class="d-inline-block align-top rounded" alt="https://web.telegram.org/293e3670-5cb9-4a48-b9db-181d5af2625f">
+  <a class="navbar-brand" style="padding-left: 30px" href="#"><img src="https://media.discordapp.net/attachments/297723686792724481/422097434202734603/me.jpg" width="30" height="30" class="d-inline-block align-top rounded" alt="">
   <span style="font-family: 'Lobster', cursive; font-size: 28px;">Yurii Levchenko</span></a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto nav-tabs" role="tablist">
-        <li class="nav-item ">
-          <a class="nav-link" href="#info"><span class="navbartxt"><i class="fas fa-user"></i> About Me</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skils"><span class="navbartxt"><i class="fas fa-graduation-cap"></i> Skils</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#contact"><span class="navbartxt"><i class="far fa-address-book"></i> Contacts</span></a>
-        </li>
-      </ul>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto nav-tabs" role="tablist">
+      <li class="nav-item ">
+        <a class="nav-link" href="#info"><span class="navbartxt"><i class="fas fa-user"></i> About Me</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skils"><span class="navbartxt"><i class="fas fa-graduation-cap"></i> Skils</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#contact"><span class="navbartxt"><i class="far fa-address-book"></i> Contacts</span></a>
+      </li>
+    </ul>
 
-    </div>
+  </div>
 
-  </nav>
+</nav>
 
-  <div class="container-fluid col">
+    <div class="container-fluid col">
 
-    <div class="col-xs-12 col-md-auto" id="info">
-      <div class="container jbb">
+<div class="col-xs-12 col-md-auto" id="info" >
+  <div class="container jbb" >
 
-        <div class="jumbotron">
+    <div class="jumbotron" >
 
-          <h1 class="display-3"><img class="rounded img-fluid" width="80" height="auto" src="YL.jpg" alt="my foto"> Yurii Levchenko</h1>
-          <p class="lead"></p>
+        <h1 class="display-4"><img class="rounded img-fluid" width="80" height="auto" src="https://media.discordapp.net/attachments/297723686792724481/422097434202734603/me.jpg" alt="my foto"><span style="font-family: 'Lobster'"> Yurii Levchenko</span></h1>
+        <p class="lead"></p>
           <ul>
-            <p>
-              <h5>Education</h5></p>
-            <li><b>2011 – 2015</b>–Kyiv National University of Technologies and Design, Automation and computer-aided technologies, Bachelor</li>
-            <li><b>2015 – 2017</b>–Kyiv National University of Technologies and Design,Automated process control, Master</li>
-            <p>
-              <h5>Working experience</h5></p>
+            <p><h5>Education</h5></p>
+            <li><b>2011 – 2015</b>–Kyiv National University of Technologies
+              and Design, Automation and computer-aided technologies, Bachelor</li>
+            <li><b>2015 – 2017</b>–Kyiv National University
+               of Technologies and Design,Automated process control, Master</li>
+            <p><h5>Working experience</h5></p>
 
             <li><strong>02.2017 – till present, Utest (utest.com)</strong>
               <br>Position: Software tester. Testing of different type of projects
@@ -105,78 +105,79 @@
               </ul>
             </li>
             <li><strong>02.2013 – 09.2013 delivery service “Oasis water” </strong>
-              <br>Position: Content manager
-              <ul>
-                <li>Site content.</li>
-                <li>Cross-browser testing.</li>
-              </ul>
+                <br>Position: Content manager
+                  <ul>
+                    <li>Site content.</li>
+                    <li>Cross-browser testing.</li>
+                  </ul>
             </li>
 
           </ul>
-          </p>
+        </p>
 
-        </div>
-
-      </div>
     </div>
-    <div class="col-xs-12 col-md-auto" id="skils">
-      <div class="container jbb">
 
-        <div class="jumbotron">
+ </div>
+</div>
+<div class="col-xs-12 col-md-auto"  id="skils">
+  <div class="container jbb" >
 
-          <h1 class="display-3"><i class="fas fa-graduation-cap"></i> Skill</h1>
-          <p class="lead">
-            <ul>
-              <p>
-                <h5>Main technical skills</h5></p>
-              <li>HTML/HTML5;</li>
-              <li>CSS/CSS3;</li>
-              <li>jQuery;</li>
-              <li>JavaScript ;</li>
-              <li>Bootstrap;</li>
-              <li>GitHub</li>
+    <div class="jumbotron" >
+
+        <h1 class="display-4"><i class="fas fa-graduation-cap"></i> Skill</h1>
+        <p class="lead">
+          <ul>
+            <p><h5>Main technical skills</h5></p>
+            <li>HTML/HTML5;</li>
+            <li>CSS/CSS3;</li>
+            <li>jQuery;</li>
+            <li>JavaScript ;</li>
+            <li>Bootstrap;</li>
+            <li>GitHub</li>
               <p>
                 <h5>Language skills</h5>
               </p>
               <li><b>English</b>- intermediate</li>
               <li><b>Ukrainian</b>- fluent </li>
               <li><b>Russian</b>- fluent </li>
-            </ul>
-          </p>
+          </ul>
+        </p>
 
-        </div>
-
-      </div>
     </div>
-    <div class="col-xs-12 col-md-auto" id="contact">
-      <div class="container jbb">
 
-        <div class="jumbotron">
+ </div>
+</div>
+<div class="col-xs-12 col-md-auto" id="contact">
+  <div class="container jbb" >
 
-          <h1 class="display-3"><i class="far fa-address-book"></i> Contacts</h1>
-          <p class="lead">My contacts for communication.</p>
-          <button type="button" class="btn btn-primary" data-container="body" title="E-mail" data-toggle="popover" data-placement="bottom" data-content="yurilev4@gmail.com" id="maillmy"><i class="far fa-envelope"></i> E-mail</button>
+    <div class="jumbotron" >
 
-          <button type="button" class="btn btn-primary" data-container="body" title="Phone Number" data-toggle="popover" data-placement="bottom" data-content="+380933029243" id="phnnmb"><i class="far fa-address-book"></i> Phone</button>
+        <h1 class="display-4"><i class="far fa-address-book"></i> Contacts</h1>
+        <p class="lead">My contacts for communication.</p>
+        <button type="button" class="btn btn-primary" data-container="body"
+        title="E-mail" data-toggle="popover" data-placement="bottom"
+        data-content="yurilev4@gmail.com" id="maillmy"><i class="far fa-envelope"></i> E-mail</button>
 
-          <a href="https://t.me/YuriiLev" target="_blank">
+<button type="button" class="btn btn-primary" data-container="body"
+ title="Phone Number" data-toggle="popover" data-placement="bottom"
+data-content="+380933029243" id="phnnmb"><i class="far fa-address-book"></i> Phone</button>
+
+<a href="https://t.me/YuriiLev" target="_blank">
   <button type="button" class="btn btn-primary"><i class="fab fa-telegram"></i> Telegram</button>
 </a>
 
-          <a href="https://www.facebook.com/levchenko.juri" target="_blank">
+<a href="https://www.facebook.com/levchenko.juri" target="_blank">
   <button type="button" class="btn btn-primary"><i class="fab fa-facebook-square"></i> Facebook</button>
 </a>
-        </div>
-
-      </div>
     </div>
 
-  </div>
-  <footer class="text-center">
-    <hr>
-    <p>Written and coded by <a href="_blank">"FyuroTEX"</a>
-      <p>
-  </footer>
-</body>
+ </div>
+</div>
 
+</div>
+<footer class="text-center">
+  <hr>
+  <p>Written and coded by <a href="_blank">"FyuroTEX"</a><p>
+</footer>
+  </body>
 </html>
