@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico');
 
+
+.container-fluid{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .navbartxt {
   font-family: 'Lobster', cursive;
   font-size: 22px;
 }
 
 .jbb {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
   background{ height: block; }
 }
 #info {
+  padding-top: 4vh;
   background-image: url(http://dreamstop.com/wp-content/uploads/2013/07/office-dream-meaning.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +30,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: block;
 
 }
 #contact {
@@ -31,11 +38,32 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: block;
 
 }
 body {
-  position: relative;
+ position: relative;
+
+}
+.back-top {
+display: none;
+  position: fixed;
+  bottom: 3vh;
+  right: 3vw;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #babbda;
+  opacity: 0.7;
+  border-color: #2ecc71;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+.back-top:hover {
+  background-color: #307bc9;
+  opacity: 1;
 }
 font-family: 'Pacifico', cursive;
 font-family: 'Lobster', cursive;
