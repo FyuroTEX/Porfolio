@@ -11,19 +11,18 @@ $(document).ready(function() {
     $("html,body").animate({scrollTop:0}, 900)
   });
 
-  $('#myScrollspy').on('activate.bs.scrollspy', function () {
-
-})
+$('body').scrollspy({ target: '.navbar' });
+//   $('#myScrollspy').on('activate.bs.scrollspy', function () {
+//
+// });
   $('[data-toggle="popover"]').popover({
     trigger: 'click'
   });
-  $("#phnnmb").click(function() {
+  $(".ppvr").click(function() {
     $(".popover").popover('hide');
   });
-  $("#maillmy").click(function() {
-    $(".popover").popover('hide');
-  });
-  $(".wdw").click(function() {
+
+  $(".container-fluid").click(function() {
     $(".popover").popover('hide');
   });
 });
